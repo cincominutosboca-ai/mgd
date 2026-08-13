@@ -105,7 +105,7 @@ p {
 h1 {
   max-width: 960px;
   margin: 0;
-  font-size: clamp(2.1rem, 5vw, 5rem);
+  font-size: clamp(1.45rem, 2.5vw, 2.5rem);
   line-height: 1;
   font-weight: 900;
 }
@@ -574,6 +574,10 @@ h2 {
     padding-top: 2rem;
   }
 
+  .work-grid {
+    height: auto;
+  }
+
   .work-card,
   .work-card img {
     height: 290px;
@@ -592,6 +596,10 @@ h2 {
   .work-grid:hover .work-card {
     flex: 1 1 50%;
     opacity: 1;
+  }
+
+  .work-grid:hover .work-card:hover {
+    flex: 1 1 50%;
   }
 
   .more-btn {
@@ -620,6 +628,10 @@ h2 {
   .work-card,
   .work-grid:hover .work-card {
     flex-basis: 100%;
+  }
+
+  .work-grid:hover .work-card:hover {
+    flex: 1 1 100%;
   }
 
   .worker {
