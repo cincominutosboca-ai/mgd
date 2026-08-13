@@ -81,7 +81,7 @@ section {
 
 .section-heading {
   max-width: 1080px;
-  padding-top: 1.25rem;
+  padding-top: 0.5rem;
   padding-bottom: 2rem;
 }
 
@@ -571,7 +571,7 @@ h2 {
 
 @media (max-width: 768px) {
   .section-heading {
-    padding-top: 2rem;
+    padding-top: 0.5rem;
   }
 
   .work-grid {
