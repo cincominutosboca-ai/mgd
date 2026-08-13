@@ -1,0 +1,501 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1345, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        protocol=args.protocol,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1292, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1339, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 140, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 10013] Intento de a127.0.0.1 - - [13/Aug/2026 10:27:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:10:20] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:10:22] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:11:52] "GET /public/Trabajo%206/mejorada_4384ccb8-ccbb-4d5c-a711-6a871a59bb60.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:11:52] "GET /public/Trabajo%206/mejorada_565dc2e4-82d3-42bc-9a29-008efb4b9890.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:11:52] "GET /public/Trabajo%206/mejorada_6cdd8ef4-48c7-4005-a9e0-483c422cc1bd.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:22] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:12:22] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:12:23] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:12:23] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:12:23] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:12:27] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:12:30] "GET /public/Trabajo%203/mejorada_d53b6328-2cb1-4684-86bf-9a45fff06b3f.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:30] "GET /public/Trabajo%203/mejorada_d7e1b73e-6126-4d3a-a3a2-9693b6d35239.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /styles.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /script.js?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /public/Trabajo%201/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /public/Trabajo%203/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /public/Trabajo%202/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /public/Trabajo%204/mejorada_2428e17e-1f54-444b-988b-92d19c002c6c.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /public/Trabajo%205/1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /public/Trabajo%206/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:39] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 11:12:39] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 11:12:50] "GET /public/Trabajo%204/mejorada_8ff56c3a-e614-46f6-924a-c403b8dfe360.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:50] "GET /public/Trabajo%204/mejorada_afb75182-783a-4832-b5d6-70eb800bc13f.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:12:50] "GET /public/Trabajo%204/mejorada_fcd708ee-0180-4f9c-a1f6-4cb48a8fe83f.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:35:12] "GET /styles.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:35:16] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:35:16] "GET /public/Integrantes/german.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:35:16] "GET /public/Integrantes/jorge.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:51:18] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:51:18] "GET /styles.css?v=2 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:51:18] "GET /public/Integrantes/german.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:51:18] "GET /public/Integrantes/jorge.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:54:31] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 11:54:31] "GET /styles.css?v=2 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:54:31] "GET /public/Integrantes/german.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 11:54:31] "GET /public/Integrantes/jorge.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 12:13:19] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 12:13:19] "GET /styles.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 12:13:19] "GET /public/Integrantes/german.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 12:13:19] "GET /public/Integrantes/jorge.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:27:32] "HEAD /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:27:54] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:27:54] "GET /script.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:27:54] "GET /styles.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:27:54] "GET /public/Integrantes/jorge.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:27:54] "GET /public/Integrantes/german.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:27:54] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:28:00] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:28:00] "GET /styles.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:28:00] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:29:31] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:29:31] "GET /styles.css?v=3 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:29:31] "GET /script.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:29:32] "GET /public/Integrantes/german.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:29:32] "GET /public/Integrantes/jorge.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:29:32] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:29:44] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:29:44] "GET /styles.css?v=3 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:29:44] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:29:44] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61230)
+127.0.0.1 - - [13/Aug/2026 14:29:45] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:31:00] "GET /public/Trabajo%204/mejorada_8ff56c3a-e614-46f6-924a-c403b8dfe360.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:00] "GET /public/Trabajo%204/mejorada_afb75182-783a-4832-b5d6-70eb800bc13f.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:00] "GET /public/Trabajo%204/mejorada_fcd708ee-0180-4f9c-a1f6-4cb48a8fe83f.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:11] "GET /public/Trabajo%206/mejorada_4384ccb8-ccbb-4d5c-a711-6a871a59bb60.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:11] "GET /public/Trabajo%206/mejorada_565dc2e4-82d3-42bc-9a29-008efb4b9890.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:11] "GET /public/Trabajo%206/mejorada_6cdd8ef4-48c7-4005-a9e0-483c422cc1bd.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:36] "HEAD /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:42] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:42] "GET /styles.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:31:42] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:31:42] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:31:45] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:31:45] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:38:06] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:06] "GET /styles.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:06] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:06] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:07] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:07] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 52774)
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:38:07] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:08] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:08] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:08] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:08] "GET /index.html HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59252)
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:38:08] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:09] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:09] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:09] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:09] "GET /index.html HTTP/1.1" 304 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 55088)
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:38:09] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:10] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:10] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60143)
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:38:24] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 59504)
+Traceback (most recent call last):
+127.0.0.1 - - [13/Aug/2026 14:38:24] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:38:33] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:33] "GET /styles.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:38:33] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:33] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:35] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:38:35] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:38:35] "GET /public/Trabajo%201/mejorada_c1b536bb-e160-4189-a29f-6bbee6193dd6.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:38:35] "GET /public/Trabajo%201/mejorada_b10eeb29-93b9-4ee2-9e3f-c8a12aa9b327.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:38:41] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:38:41] "GET /public/Trabajo%201/mejorada_b10eeb29-93b9-4ee2-9e3f-c8a12aa9b327.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:38:41] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:38:41] "GET /public/Trabajo%201/mejorada_c1b536bb-e160-4189-a29f-6bbee6193dd6.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:38:44] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:44] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:45] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:46] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:38:52] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:39:31] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:39:32] "GET /styles.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:39:32] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:39:32] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:32] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 53030)
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:39:33] "GET /index.html HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:39:33] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51247)
+Traceback (most recent call last):
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 1342, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                             directory=args.directory)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 683, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 435, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 690, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\http\server.py", line 892, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\julia\AppData\Local\Programs\Python\Python313\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
+----------------------------------------
+127.0.0.1 - - [13/Aug/2026 14:39:33] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:46] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /styles.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Trabajo%201/1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Trabajo%202/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Trabajo%203/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Trabajo%204/mejorada_2428e17e-1f54-444b-988b-92d19c002c6c.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Trabajo%205/1.webp HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /script.js?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Trabajo%206/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Integrantes/german.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Integrantes/jorge.png HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:47] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:39:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:39:52] "GET /public/Trabajo%203/mejorada_d53b6328-2cb1-4684-86bf-9a45fff06b3f.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:52] "GET /public/Trabajo%203/mejorada_d7e1b73e-6126-4d3a-a3a2-9693b6d35239.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:39:57] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:39:57] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:39:57] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:39:57] "GET /public/Trabajo%201/mejorada_c1b536bb-e160-4189-a29f-6bbee6193dd6.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:39:57] "GET /public/Trabajo%201/1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:39:57] "GET /public/Trabajo%201/mejorada_b10eeb29-93b9-4ee2-9e3f-c8a12aa9b327.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417868998_c4be1ea4-927d-4a18-97e4-7fd588e1103d.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417868999_92f7a656-1a53-49c8-96b8-f94c73b3e8b9.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417868999_cf78b1e4-e8a3-4b5c-a4bd-568887ed2c58.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869001_7c907878-8097-411d-b542-2aeda4f3a196.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869001_b187ff7c-57c6-4b74-94b5-28cc55586348.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869000_362de493-edd4-4e2a-838c-75ed186136a8.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869001_c60b112b-c648-42ef-8695-634aa41aeb48.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869002_4b638f21-7385-4020-af15-6eec315bdeda.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869002_60256959-e417-4403-a175-40b1020fedf1.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869002_f349c21d-2c6c-4ae6-97fd-bfdb209a6953.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869003_7c02cea2-1328-4c1b-89e4-a952060602df.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:03] "GET /public/Trabajo%202/mejorada_1786417869003_c17a3cac-597b-4821-ac29-213b7cfcd523.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:40:18] code 404, message File not found
+127.0.0.1 - - [13/Aug/2026 14:40:18] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/Aug/2026 14:41:53] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 14:41:53] "GET /styles.css?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:41:53] "GET /script.js?v=4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 14:41:54] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 304 -
