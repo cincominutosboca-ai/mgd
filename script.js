@@ -1,23 +1,13 @@
 const galleries = {
   "trabajo-1": [
-    "public/Trabajo%201/1.jpg",
-    "public/Trabajo%201/mejorada_b10eeb29-93b9-4ee2-9e3f-c8a12aa9b327.jpg",
-    "public/Trabajo%201/mejorada_c1b536bb-e160-4189-a29f-6bbee6193dd6.jpg"
+    "public/Trabajo%201/1.jpeg",
+    "public/Trabajo%201/WhatsApp%20Image%202026-08-13%20at%2012.39.58.jpeg",
+    "public/Trabajo%201/WhatsApp%20Image%202026-08-13%20at%2012.39.59%20(1).jpeg"
   ],
   "trabajo-2": [
     "public/Trabajo%202/1.jpg",
-    "public/Trabajo%202/mejorada_1786417868998_c4be1ea4-927d-4a18-97e4-7fd588e1103d.jpg",
-    "public/Trabajo%202/mejorada_1786417868999_92f7a656-1a53-49c8-96b8-f94c73b3e8b9.jpg",
-    "public/Trabajo%202/mejorada_1786417868999_cf78b1e4-e8a3-4b5c-a4bd-568887ed2c58.jpg",
-    "public/Trabajo%202/mejorada_1786417869000_362de493-edd4-4e2a-838c-75ed186136a8.jpg",
-    "public/Trabajo%202/mejorada_1786417869001_7c907878-8097-411d-b542-2aeda4f3a196.jpg",
-    "public/Trabajo%202/mejorada_1786417869001_b187ff7c-57c6-4b74-94b5-28cc55586348.jpg",
-    "public/Trabajo%202/mejorada_1786417869001_c60b112b-c648-42ef-8695-634aa41aeb48.jpg",
-    "public/Trabajo%202/mejorada_1786417869002_4b638f21-7385-4020-af15-6eec315bdeda.jpg",
-    "public/Trabajo%202/mejorada_1786417869002_60256959-e417-4403-a175-40b1020fedf1.jpg",
-    "public/Trabajo%202/mejorada_1786417869002_f349c21d-2c6c-4ae6-97fd-bfdb209a6953.jpg",
-    "public/Trabajo%202/mejorada_1786417869003_7c02cea2-1328-4c1b-89e4-a952060602df.jpg",
-    "public/Trabajo%202/mejorada_1786417869003_c17a3cac-597b-4821-ac29-213b7cfcd523.jpg"
+    "public/Trabajo%202/20250626_163638.jpg",
+    "public/Trabajo%202/20250626_163836.jpg"
   ],
   "trabajo-3": [
     "public/Trabajo%203/1.jpg",

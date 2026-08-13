@@ -499,3 +499,12 @@ ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una cone
 127.0.0.1 - - [13/Aug/2026 14:41:53] "GET /styles.css?v=4 HTTP/1.1" 304 -
 127.0.0.1 - - [13/Aug/2026 14:41:53] "GET /script.js?v=4 HTTP/1.1" 304 -
 127.0.0.1 - - [13/Aug/2026 14:41:54] "GET /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 304 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Trabajo%201/1.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Trabajo%201/WhatsApp%20Image%202026-08-13%20at%2012.39.58.jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Trabajo%201/WhatsApp%20Image%202026-08-13%20at%2012.39.59%20(1).jpeg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Trabajo%202/1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Trabajo%202/20250626_163638.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Trabajo%202/20250626_163836.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /public/Presentacion/mgd%20presentacion.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /styles.css?v=4 HTTP/1.1" 200 -
+127.0.0.1 - - [13/Aug/2026 15:01:49] "HEAD /script.js?v=4 HTTP/1.1" 200 -
