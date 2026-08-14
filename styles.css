@@ -117,6 +117,13 @@ h2 {
   font-weight: 900;
 }
 
+.about-section h2,
+.reviews-section h2,
+.faq-section h2 {
+  font-size: clamp(1.45rem, 2.5vw, 2.5rem);
+  line-height: 1;
+}
+
 .lead {
   color: var(--muted);
   font-size: 1.12rem;
